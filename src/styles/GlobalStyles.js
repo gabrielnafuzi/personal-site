@@ -19,11 +19,15 @@ export default createGlobalStyle`
     background: var(--color-background);
   }
 
+  body {
+    padding-top: 82px;
+  }
+
   *, button, input {
     border: 0;
     background: none;
     font-family: 'Space Mono', monospace;
-    color: var(--black);
+    color: var(--color-black);
     transition: color 0.2s ease-out;
   }
 
