@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
+  display: flex;
   height: calc(100vh - 82px);
+
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 1.8rem;
-
-  display: flex;
 `;
 
 export const ContentBlock = styled.div`
@@ -15,7 +15,7 @@ export const ContentBlock = styled.div`
   margin-top: 7rem;
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 600;
     line-height: 3.75rem;
   }

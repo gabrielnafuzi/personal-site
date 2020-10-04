@@ -17,6 +17,7 @@ export default createGlobalStyle`
   html {
     min-height: 100%;
     background: var(--color-background);
+    scroll-behavior: smooth;
   }
 
   body {
@@ -33,6 +34,29 @@ export default createGlobalStyle`
 
   ul {
     list-style: none;
+  }
+
+  .section-title {
+    display: block;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    &::after {
+      content: '';
+      max-width: 152px;
+      height: 14.5px;
+
+      display: block;
+      position: relative;
+      bottom: 14px;
+      background-color: var(--color-purple);
+      z-index: -1;
+      opacity: 0.5;
+      margin: 0 auto;
+    }
   }
   
 `;
