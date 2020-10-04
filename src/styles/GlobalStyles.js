@@ -6,6 +6,8 @@ export default createGlobalStyle`
     --color-black: #2e2e2e;
     --color-purple: #7d77e0;
     --color-white: #fff;
+
+    font-size: 62.5%;
   }
 
   * {
@@ -39,10 +41,10 @@ export default createGlobalStyle`
   .section-title {
     display: block;
 
-    font-size: 1.4rem;
+    font-size: 2.8rem;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4.0rem;
 
     &::after {
       content: '';

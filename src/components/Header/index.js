@@ -4,7 +4,7 @@ import useMedia from '../../Hooks/useMedia';
 import { Container, HeaderBlock, Logo, Nav, MobileButton } from './styles';
 
 const Header = () => {
-  const mobile = useMedia('(max-width: 739px)');
+  const mobile = useMedia('(max-width: 73.9rem)');
   const [mobileMenu, setMobileMenu] = React.useState(false);
 
   return (
