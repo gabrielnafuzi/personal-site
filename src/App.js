@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutMeSection from './components/AboutMeSection';
 import Header from './components/Header';
 import LandingSection from './components/LandingSection';
 
@@ -9,6 +10,7 @@ const App = () => {
     <>
       <Header />
       <LandingSection />
+      <AboutMeSection />
       <GlobalStyles />
     </>
   );
