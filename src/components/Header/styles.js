@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const HeaderBlock = styled.header`
   margin: 0 auto;
-  padding: 1rem 1.8rem;
+  padding: 1rem 1.6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,7 +37,7 @@ export const Nav = styled.ul`
   &.nav-mobile {
     display: block;
     position: absolute;
-    top: 70px;
+    top: 62px;
     right: 20px;
     padding: 0 1rem;
 
@@ -87,7 +87,7 @@ export const MobileButton = styled.button`
     height: 3px;
     border-radius: 4px;
     background: var(--color-purple);
-    box-shadow: 0 8px var(--color-purple), 0 -8px var(--color-purple);
+    box-shadow: 0 7px var(--color-purple), 0 -7px var(--color-purple);
     transition: 0.2s;
   }
 

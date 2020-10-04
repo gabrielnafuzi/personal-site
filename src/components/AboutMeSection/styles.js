@@ -5,7 +5,7 @@ export const Container = styled.section`
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 5rem 1.8rem 0;
+  padding: 5rem 1.6rem 0;
 
   .wrapper {
     display: flex;
@@ -27,7 +27,7 @@ export const ContentBlock = styled.div`
 export const SkillList = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 0.8rem;
+  gap: 0.8rem;
 
   li {
     display: flex;
@@ -51,6 +51,7 @@ export const SkillList = styled.ul`
 
 export const AvatarBlock = styled.div`
   display: none;
+
   @media (min-width: 979px) {
     display: flex;
     align-items: center;

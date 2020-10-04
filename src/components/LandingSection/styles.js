@@ -6,11 +6,12 @@ export const Container = styled.section`
 
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1.8rem;
+  padding: 0 1.6rem;
 `;
 
 export const ContentBlock = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: column;
   margin-top: 7rem;
 
