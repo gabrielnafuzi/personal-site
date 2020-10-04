@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const HeaderBlock = styled.header`
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 1.8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
