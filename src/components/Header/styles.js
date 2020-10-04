@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const HeaderBlock = styled.header`
   margin: 0 auto;
-  padding: 1rem 1.6rem;
+  padding: 2rem 3.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,15 +19,16 @@ export const HeaderBlock = styled.header`
 `;
 
 export const Logo = styled.div`
-  font-size: 1.4rem;
+  font-size: 2.8rem;
 `;
 
 export const Nav = styled.ul`
   display: flex;
 
   li {
-    padding: 0 0.4rem;
-    margin: 0 0.6rem;
+    font-size: 2rem;
+    padding: 0 0.8rem;
+    margin: 0 1.2rem;
 
     a {
       text-decoration: none;
@@ -39,20 +40,20 @@ export const Nav = styled.ul`
     position: absolute;
     top: 62px;
     right: 20px;
-    padding: 0 1rem;
+    padding: 0 2rem;
 
     background: var(--color-white);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 
     border: 1px solid var(--color-purple);
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
 
     transform: translateX(-10px);
     opacity: 0;
     pointer-events: none;
 
     li {
-      padding: 0.8rem 0;
+      padding: 1.6rem 0;
 
       & + li {
         border-top: 1px solid var(--color-purple);
@@ -83,7 +84,7 @@ export const MobileButton = styled.button`
   &::after {
     content: '';
     display: block;
-    width: 1.4rem;
+    width: 2.8rem;
     height: 3px;
     border-radius: 4px;
     background: var(--color-purple);
