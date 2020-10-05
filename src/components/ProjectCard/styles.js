@@ -44,7 +44,8 @@ export const ContentBlock = styled.div`
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2rem;
-
+    margin-bottom: 2rem;
+  
     text-decoration: none;
 
     .arrow-block span {

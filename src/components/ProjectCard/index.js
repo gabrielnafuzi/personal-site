@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, ContentBlock, ImageBlock } from './styles';
 
-const ProjectCard = ({ title, description, imgSrc, projectUrl }) => {
+const ProjectCard = ({ title, description, imgSrc, projectUrl, repositoryUrl }) => {
   return (
     <Container>
       <ContentBlock>
@@ -11,7 +11,14 @@ const ProjectCard = ({ title, description, imgSrc, projectUrl }) => {
         <p>{description}</p>
 
         <a href={projectUrl} target="_blank" rel="noopener noreferrer">
-          Visitar{' '}
+          Ao vivo{' '}
+          <div className="arrow-block">
+            <span> → </span>
+          </div>
+        </a>
+
+        <a href={repositoryUrl} target="_blank" rel="noopener noreferrer">
+          Repositório{' '}
           <div className="arrow-block">
             <span> → </span>
           </div>

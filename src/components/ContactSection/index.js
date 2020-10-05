@@ -9,7 +9,7 @@ import { Container, IconsList } from './styles';
 
 const ContactSection = () => {
   return (
-    <Container>
+    <Container id="contact">
       <h1 className="section-title">Contato</h1>
 
       <div className="wrapper">

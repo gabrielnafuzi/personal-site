@@ -35,6 +35,10 @@ export const Nav = styled.ul`
     a {
       text-decoration: none;
     }
+
+    &:hover a {
+      color: var(--color-purple);
+    }
   }
 
   &.nav-mobile {
