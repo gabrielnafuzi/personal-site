@@ -24,13 +24,13 @@ const Header = () => {
             mobileMenu && 'nav-mobile-active'
           }`}
         >
-          <li>
+          <li onClick={() => setMobileMenu(false)}>
             <a href="#about">Sobre mim</a>
           </li>
-          <li>
+          <li onClick={() => setMobileMenu(false)}>
             <a href="#portfolio">Portfólio</a>
           </li>
-          <li>
+          <li onClick={() => setMobileMenu(false)}>
             <a href="#contact">Contato</a>
           </li>
         </Nav>
