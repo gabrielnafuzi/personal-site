@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  background: var(--color-white);
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.06);
   position: fixed;
   top: 0;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const HeaderBlock = styled.header`
   margin: 0 auto;
-  padding: 2rem 3.2rem;
+  padding: 1.6rem 3.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,6 +20,7 @@ export const HeaderBlock = styled.header`
 
 export const Logo = styled.div`
   font-size: 2.8rem;
+  color: var(--color-purple);
 `;
 
 export const Nav = styled.ul`
