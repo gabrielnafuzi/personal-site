@@ -10,23 +10,26 @@ const PortfolioSection = () => {
       <div className="wrapper">
         <ProjectCard
           title="GitHub Jobs"
-          description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex excepturi vel alias quaerat voluptatem sint, harum voluptatum, qui ipsum beatae perferendis quas expedita ullam repudiandae, vitae ducimus minus accusantium omnis."
+          description="Este projeto consiste em consumir a API do GitHub Jobs. Você seleciona ou escolhe a localização e escolhe a descrição da vaga e aparece todas as vagas disponíveis de acordo com o que foi pesquisado."
           imgSrc="https://i.imgur.com/uRPL0Yy.png"
           projectUrl="https://gngithubjobs.vercel.app/"
+          repositoryUrl="https://github.com/gabrielnafuzi/github-jobs"
         />
 
         <ProjectCard
           title="Quiz"
-          description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex excepturi vel alias quaerat voluptatem sint, harum voluptatum, qui ipsum beatae perferendis quas expedita ullam repudiandae, vitae ducimus minus accusantium omnis."
+          description="Este foi meu primeiro projeto feito em ReactJS, consiste em consumir a API do Open Trivia DB. Nele você escolhe o tema do quiz e a dificuldade das perguntas e após iniciar 10 perguntas são geradas para ser respondidas e ao final mostra a quantidade de acertos."
           imgSrc="https://i.imgur.com/aG9OoeU.png"
           projectUrl="https://gnquiz.vercel.app/"
+          repositoryUrl="https://github.com/gabrielnafuzi/react-quiz-app"
         />
 
         <ProjectCard
           title="Dogs"
-          description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex excepturi vel alias quaerat voluptatem sint, harum voluptatum, qui ipsum beatae perferendis quas expedita ullam repudiandae, vitae ducimus minus accusantium omnis."
+          description="Este foi um projeto feito durante o curso de ReactJS da Origamid, Neste projeto temos uma rede social para cachorros, com sistema de login, postagem, comentários, likes, etc."
           imgSrc="https://i.imgur.com/QUiVUGa.png"
           projectUrl="https://gndogs.vercel.app/"
+          repositoryUrl="https://github.com/gabrielnafuzi/dogs"
         />
 
         <a
