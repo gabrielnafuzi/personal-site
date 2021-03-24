@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ButtonScrollToTop = styled.a`
   display: flex;
@@ -10,11 +10,12 @@ export const ButtonScrollToTop = styled.a`
   padding: 2rem;
   position: fixed;
   right: 26px;
+  bottom: 26px;
 
   border-radius: 50%;
   background: var(--color-purple);
   transition: all 0.4s ease;
-`;
+`
 
 export const ArrowUp = styled.span`
   border: solid var(--color-white);
@@ -22,4 +23,4 @@ export const ArrowUp = styled.span`
   display: inline-block;
   padding: 3px;
   transform: rotate(-135deg);
-`;
+`
