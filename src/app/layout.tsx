@@ -43,6 +43,7 @@ export const metadata = {
     description: siteConfig.description,
     images: [`${siteConfig.url}/og.png`],
     creator: '@gabrielnafuzi',
+    site: '@gabrielnafuzi',
   },
 }
 
