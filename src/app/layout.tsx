@@ -34,6 +34,7 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
+    images: [`${siteConfig.url}/og.png`],
   },
   twitter: {
     card: 'summary_large_image',
@@ -42,7 +43,6 @@ export const metadata = {
     images: [`${siteConfig.url}/og.jpg`],
     creator: '@gabrielnafuzi',
   },
-  manifest: `${siteConfig.url}/site.webmanifest`,
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
