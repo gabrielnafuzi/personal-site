@@ -23,7 +23,7 @@ const SocialLink = ({
     <li className={cn(className, 'flex')}>
       <a
         href={href}
-        className="group flex items-center text-sm font-medium text-zinc-200 transition hover:bg-gradient-to-r hover:from-bluePurple hover:to-lightBlue hover:bg-clip-text hover:text-transparent"
+        className="group flex items-center bg-zinc-200 bg-clip-text text-sm font-medium text-transparent transition hover:bg-gradient-to-r hover:from-bluePurple hover:to-lightBlue"
         rel="noopener noreferrer nofollow"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-bluePurple" />
