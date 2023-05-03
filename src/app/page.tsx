@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import { Icons } from '@/components/icons'
 import { cn } from '@/lib/utils'
-import meImage from '@/public/images/avatar.jpg'
 
 type SocialLinkProps = {
   className?: string
@@ -64,9 +63,10 @@ export default function Home() {
 
                     <div className="relative z-20">
                       <Image
-                        src={meImage}
+                        src="/images/avatar.webp"
                         alt="Gabriel Moraes"
-                        sizes="(min-width: 1024px) 32rem, 20rem"
+                        width={600}
+                        height={600}
                         className="aspect-square rotate-3 rounded-2xl bg-zinc-800 object-cover"
                       />
                     </div>
