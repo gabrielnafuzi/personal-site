@@ -1,6 +1,7 @@
 import { Inter as FontSans } from 'next/font/google'
 
 import '@/styles/globals.css'
+import { Analytics } from '@/components/analytics'
 import { siteConfig } from '@/config/site'
 import { cn } from '@/lib/utils'
 
@@ -56,6 +57,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         {children}
+
+        <Analytics />
       </body>
     </html>
   )
