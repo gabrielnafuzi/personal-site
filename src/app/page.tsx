@@ -37,7 +37,7 @@ const BlurBlob = ({ className }: { className?: string }) => {
   return (
     <div
       className={cn(
-        'absolute z-10 h-64 w-64 animate-blob rounded-full opacity-30 blur-xl filter',
+        'absolute z-10 h-64 w-64 animate-blob rounded-full opacity-40 blur-xl filter',
         className
       )}
     />
@@ -53,13 +53,13 @@ export default function Home() {
             <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
               <div className="lg:pl-20">
                 <div className="relative mx-auto max-w-xs px-2.5 lg:max-w-none">
-                  <BlurBlob className="animation-delay-2000 -left-4 -top-4 bg-bluePurple" />
+                  <BlurBlob className="animation-delay-2000 -left-6 -top-8 bg-bluePurple" />
                   <BlurBlob className="bottom-8 left-0 bg-lightBlue" />
-                  <BlurBlob className="animation-delay-4000 -bottom-5 -left-5 bg-darkBlue" />
+                  <BlurBlob className="animation-delay-4000 -bottom-8 -left-6 bg-darkBlue" />
 
-                  <BlurBlob className="animation-delay-4000 -right-4 -top-4 bg-deepRose" />
+                  <BlurBlob className="animation-delay-4000 -right-6 -top-8 bg-deepRose" />
                   <BlurBlob className="bottom-8 right-0 bg-coralRed" />
-                  <BlurBlob className="animation-delay-2000 -bottom-5 -right-5 bg-deepRose" />
+                  <BlurBlob className="animation-delay-2000 -bottom-8 -right-6 bg-deepRose" />
 
                   <div className="relative z-20">
                     <Image
